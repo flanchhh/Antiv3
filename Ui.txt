@@ -114,8 +114,8 @@ function MacLib:Window(Settings)
 	local base = Instance.new("Frame")
 	base.Name = "Bounty"
 	base.AnchorPoint = Vector2.new(0.5, 0.5)
-base.BackgroundColor3 = Color3.fromRGB(50, 0, 70)
-	base.BackgroundTransparency = Settings.AcrylicBlur and 0.05 or 0
+base.BackgroundColor3 = Color3.fromRGB(30, 20, 40)
+	base.BackgroundTransparency = Settings.AcrylicBlur and 0.07 or 0
 	base.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	base.BorderSizePixel = 0
 	base.Position = UDim2.fromScale(0.5, 0.5)
@@ -133,7 +133,7 @@ base.BackgroundColor3 = Color3.fromRGB(50, 0, 70)
 	local baseUIStroke = Instance.new("UIStroke")
 	baseUIStroke.Name = "BaseUIStroke"
 	baseUIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-	baseUIStroke.Color = Color3.fromRGB(255, 255, 255)
+	baseUIStroke.Color = Color3.fromRGB(100, 80, 120)
 	baseUIStroke.Transparency = 0.9
 	baseUIStroke.Parent = base
 
